@@ -1,0 +1,11 @@
+Subject: Presentation & CV — Ziad Medhat (Embedded Systems / Industrial IoT)
+
+Hello [Hiring Manager / Contact Name],
+
+Thank you for the opportunity to present my work. I'm Ziad Medhat (Zaid), an Electronics & Communications Engineer experienced in embedded systems, industrial IoT, and product-ready hardware and firmware. Attached is my one-page CV and links to three projects most relevant to Siemens: AgriFlow (edge gateway & sensor network), an industrial condition-monitoring gateway (STM32, FreeRTOS, MQTT/TLS), and a rugged sensor node (PCB + 3D CAD).
+
+During the meeting I’d like to focus on system reliability, industrial protocol integration, test and deployment strategy, and how I’ve moved prototypes into production-ready units. I look forward to discussing how my hands-on experience can support Siemens’ automation and digitalization initiatives.
+
+Best regards,
+Ziad Medhat (Zaid)
+zezo.medhat2007@gmail.com • +20 110 197 0259 • https://www.linkedin.com/in/ziad-zaid-b72054444/
