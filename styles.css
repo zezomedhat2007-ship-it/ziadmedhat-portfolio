@@ -1,0 +1,42 @@
+:root{
+  --bg:#ffffff;--text:#0b1724;--muted:#546174;
+  --accent:#0950a8;--accent-2:#0b7cff;--radius:8px;
+  --container:1100px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  color-scheme: light;
+}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0;background:var(--bg);color:var(--text);line-height:1.4}
+.container{max-width:var(--container);margin:0 auto;padding:24px}
+.header-inner{display:flex;align-items:center;justify-content:space-between}
+.site-brand{font-size:1.1rem;margin:0}
+.nav-list{list-style:none;margin:0;padding:0;display:flex;gap:12px;align-items:center}
+.nav-list a{color:var(--text);text-decoration:none;font-weight:600}
+.skip-link{position:absolute;left:-999px;top:auto;width:1px;height:1px;overflow:hidden}
+.skip-link:focus{position:static;width:auto;height:auto;padding:8px;background:#000;color:#fff;z-index:1000}
+
+.hero{padding:40px 0;border-bottom:1px solid #eef2f6}
+.hero-inner{padding:20px}
+.lead{color:var(--muted);max-width:60ch}
+.hero-ctas{margin-top:16px}
+.btn-primary, .btn-secondary, .btn-outline{display:inline-block;padding:10px 16px;border-radius:6px;text-decoration:none;font-weight:700}
+.btn-primary{background:var(--accent);color:#fff}
+.btn-secondary{background:#f3f7fb;color:var(--accent)}
+.btn-outline{border:2px solid var(--accent);padding:8px 12px;border-radius:6px}
+
+.section{padding:28px 0}
+.section-intro{color:var(--muted);margin-bottom:12px}
+.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+.project-card{border:1px solid #e8eef6;padding:16px;border-radius:8px;background:#fff}
+.project-card h4{margin:0 0 8px 0}
+.muted{color:var(--muted);font-size:0.95rem}
+.tech-list{display:flex;flex-wrap:wrap;gap:8px;padding:0;margin:8px 0;list-style:none}
+.tech-list li{background:#f4f8fd;padding:6px 8px;border-radius:6px;font-size:.85rem}
+.links a{margin-right:12px;color:var(--accent-2);text-decoration:underline}
+.site-footer{border-top:1px solid #eef2f6;padding:18px 0;margin-top:32px;color:var(--muted);font-size:.9rem}
+
+/* Responsive adjustments */
+@media (max-width:700px){
+  .header-inner{flex-direction:row;gap:12px}
+  .lead{max-width:100%}
+}
